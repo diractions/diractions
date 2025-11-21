@@ -8,7 +8,8 @@ on:
 
   # Triggers the workflow on push request events but only for the "main" branch
   push:
-    - main
+    branches:
+      - main
   schedule:
     - cron: "0 0 * * *"
     
